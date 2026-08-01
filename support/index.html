@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ValueStack — Support</title>
+  <style>
+    :root {
+      --bg: #f6f5f1; --surf: #ffffff; --line: #e5e2d8;
+      --txt: #20242b; --mute: #68707c; --brass: #a07d15;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0e13; --surf: #161b22; --line: #232a33;
+        --txt: #e8eaed; --mute: #8b95a1; --brass: #c9a227;
+      }
+    }
+    body {
+      margin: 0; background: var(--bg); color: var(--txt);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 20px 80px; }
+    .eyebrow {
+      text-transform: uppercase; letter-spacing: .16em; font-size: 11px;
+      font-weight: 700; color: var(--mute);
+    }
+    h1 { font-size: 28px; letter-spacing: -.02em; margin: 4px 0 4px; }
+    h1 .brass { color: var(--brass); }
+    .lede { color: var(--mute); font-size: 15px; margin-bottom: 28px; }
+    h2 { font-size: 17px; margin: 28px 0 8px; }
+    p, li { font-size: 15px; }
+    .card {
+      background: var(--surf); border: 1px solid var(--line); border-radius: 14px;
+      padding: 18px 20px; margin: 24px 0; font-size: 16px;
+    }
+    .card strong { display: block; margin-bottom: 4px; }
+    a { color: var(--brass); }
+    .foot { color: var(--mute); font-size: 13px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Track card perks</div>
+  <h1>Value<span class="brass">Stack</span> — Support</h1>
+  <div class="lede">Questions, problems, or a card we should add? Get in touch.</div>
+
+  <div class="card">
+    <strong>Email support</strong>
+    <a href="mailto:tomvdp@valuestackapp.com">tomvdp@valuestackapp.com</a><br>
+    We aim to reply within a few days.
+  </div>
+
+  <h2>Frequently asked</h2>
+
+  <h3>My card isn't in the list. Can I still track it?</h3>
+  <p>
+    Yes. On the My Cards tab, tap <em>+ Add a card manually</em> below the search box. Enter the
+    card's name and annual fee, then use <em>+ Credit</em> and <em>+ Benefit</em> on the card to add
+    each statement credit and perk yourself. Manually added cards work exactly like built-in ones.
+  </p>
+
+  <h3>Where is my data stored? Does it sync?</h3>
+  <p>
+    Everything stays on your device. There is no account and no server, so nothing syncs between
+    an iPhone and an iPad, and deleting the app deletes its data. See the
+    <a href="../">privacy policy</a> for details.
+  </p>
+
+  <h3>A card's fee or credits are wrong.</h3>
+  <p>
+    Built-in card details are starting estimates — issuers change terms often. Tap the card, then
+    <em>Edit</em> to correct the annual fee, or tap <em>edit</em> on any credit to fix its amount or
+    how often it resets. Your changes are kept. If you spot something out of date, email us and
+    we'll update it for everyone in the next release.
+  </p>
+
+  <h3>How do reminders work?</h3>
+  <p>
+    ValueStack schedules reminders on your device for credits you haven't used yet — 7 days before a
+    monthly credit resets, 14 days for quarterly, and 30 days for half-yearly and yearly ones. When
+    several fall on the same day they're grouped into a single notification. Checking a credit off
+    cancels its reminder. You can turn notifications off any time in iOS Settings.
+  </p>
+
+  <h3>What does "Earns its fee" mean?</h3>
+  <p>
+    It compares what you've actually checked off this year against the card's annual fee. The bar is
+    red until you've recovered half the fee, orange up to the full fee, and turns green with an
+    "Earns its fee" badge once your captured value passes it.
+  </p>
+
+  <h3>I updated the app and my card's details didn't change.</h3>
+  <p>
+    Cards keep the details they had when you added them, so app updates never overwrite your edits.
+    To pick up refreshed built-in data for a card, remove it and add it again.
+  </p>
+
+  <h3>How do I erase everything?</h3>
+  <p>
+    Tap the <em>Private</em> badge or the ⓘ icon at the top of the app, then <em>Reset all data</em>.
+    This clears every card, check-off, and referral link from the device and cannot be undone.
+  </p>
+
+  <p class="foot">
+    ValueStack is a personal tracking tool. Perk values are user-editable estimates, not financial
+    advice — verify current terms with your card issuer.
+  </p>
+</main>
+</body>
+</html>
